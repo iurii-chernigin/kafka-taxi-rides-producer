@@ -2,7 +2,13 @@
 .gradle
 
 # Ignore Gradle build output directory
-build
+app/build/classes
+app/build/distributions
+app/build/generated
+app/build/libs
+app/build/resources
+app/build/scripts
+app/build/tmp
 
 # Ignore compiled sources
 bin
