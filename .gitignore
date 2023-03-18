@@ -6,3 +6,6 @@ build
 
 # Ignore compiled sources
 bin
+
+# Ignore Visual Studio settings
+.vscode
