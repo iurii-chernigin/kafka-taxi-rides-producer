@@ -3,8 +3,8 @@
 ## Specification
 
 Language: Java
-Data serialization format: Avro
-Source data: 
+<br>Data serialization format: Avro
+<br>Source data: 
   - [fhv_tripdata_2019-01.csv.gz](https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/fhv) 
   - [green_tripdata_2019-01.csv.gz](https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green)
   
