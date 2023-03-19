@@ -2,13 +2,13 @@
 .gradle
 
 # Ignore Gradle build output directory
-/build/classes/
-/build/distributions/
-/build/generated/
-/build/libs/
-/build/resources/
-/build/scripts/
-/build/tmp/
+build/classes
+build/distributions
+build/generated
+build/libs
+build/resources
+build/scripts
+build/tmp
 
 # Ignore compiled sources
 bin
