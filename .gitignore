@@ -2,13 +2,20 @@
 .gradle
 
 # Ignore Gradle build output directory
-build
+/build/classes/
+/build/distributions/
+/build/generated/
+/build/libs/
+/build/resources/
+/build/scripts/
+/build/tmp/
 
 # Ignore compiled sources
 bin
 
 # Ignore Visual Studio settings
-.vscode
+.idea
 
 *.csv.gz
 *.csv
+

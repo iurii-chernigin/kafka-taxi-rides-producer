@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "name": "GreenRideRecord",
+    "namespace": "schemaregistry",
+    "fields": [
+        {"name": "pickup_datetime", "type": "string"},
+        {"name": "dropoff_datetime", "type": "string"},
+        {"name": "vendor_id", "type": "string"},
+        {"name": "pickup_location_id", "type": "int"},
+        {"name": "dropoff_location_id", "type": "int"},
+        {"name": "sended_to_kafka_ts", "type": "int"}
+    ]
+}
