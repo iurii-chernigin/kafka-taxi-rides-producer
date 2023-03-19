@@ -14,6 +14,11 @@ import java.io.IOException;
 import com.opencsv.exceptions.CsvException;
 import java.util.concurrent.ExecutionException;
 
+
+/**
+ * Class for producing and sending events from csv file to Kafka topic
+ * @author iurii.chernigin
+ */
 public class GreenRideProducer {
     
     private Properties kafkaConnectionProps;
@@ -24,6 +29,11 @@ public class GreenRideProducer {
         this.dataToProducePath = dataToProducePath;
     }
 
+    /**
+     * Publish ride records to Kafka
+     *
+     * @param rideRecord object that contains data about ride
+     */
     public void publishRidesToKafka(GreenRideRecord rideRecord) {
         // Left field naming from source to be consistent,
         // transformation will be at next steps
@@ -31,7 +41,7 @@ public class GreenRideProducer {
 
     }
 
-    /*
+    /**
      * Read csv with green taxi rides and publish them to Kafka topic
      *
      * Fields: VendorID, lpep_pickup_datetime, lpep_dropoff_datetime, PULocationID, DOLocationID
