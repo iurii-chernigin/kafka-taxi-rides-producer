@@ -14,7 +14,7 @@ app/build/tmp
 bin
 
 # Ignore Visual Studio settings
-.vscode
+.idea
 
 *.csv.gz
 *.csv
